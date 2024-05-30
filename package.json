@@ -1,0 +1,19 @@
+{
+  "name": "mocha-api-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha api3.test.js",
+    "test2": "npx mocha api2.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.7.2",
+    "mocha": "^7.2.0"
+  },
+  "dependencies": {
+    "supertest": "^4.0.2"
+  }
+}
